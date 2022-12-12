@@ -1,0 +1,59 @@
+/* All CSS styles go here */
+
+.topnav {
+  background-color: #19120B;
+  overflow: hidden;
+}
+
+.logo {
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 10px;    /* if you want it vertically middle of the navbar. */
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 160px;
+  text-decoration: none;
+  font-family: kepler-std-display,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+}
+.topnav a:hover {
+  ;
+}
+  .topnav a.active {
+  background-color: #cf1b00;
+  color: white;
+}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+
+
+.nogap {margin: 0; padding: 0}
+.container {background-color: #19120B; margin: 0; padding: 0}
+*{box-sizing: border-box; -webkit-box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; font: 16px/1.3 sans-serif; }
+
+.gnome{ width: auto;}
+.boxoutline{width: 1880px;
+  padding: 50px;
+  border: 5px solid #E9DBB6;
+  margin: 0; }
+
+.texthistory {color:#E9DBB6; z-index:9;}
+
+.woodbackround {background-color:#172D1C; height:100%;
+  width: 100%; z-index: 2;}
+
+.woodbackroundbrown {background-image: url("../images/texture.jpg");z-index:3; opacity: 0.8;}
